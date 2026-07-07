@@ -1,48 +1,11 @@
-<!-- 🔥 Waving CSS Animations Setup -->
-<style>
-  /* 🌊 Title එක Wave වෙන්න (Floating Effect) */
-  .floating-title {
-    animation: wave-text 3s ease-in-out infinite alternate;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #58a6ff;
-    text-align: center;
-    margin-bottom: 5px;
-  }
-
-  /* 🖼️ Hero Image/Banner එක Wave වෙන්න */
-  .waving-hero {
-    animation: wave-image 6s ease-in-out infinite alternate;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-    width: 100%;
-  }
-
-  /* Keyframes for Text Floating */
-  @keyframes wave-text {
-    0% { transform: translateY(0px) rotate(0deg); }
-    100% { transform: translateY(-8px) rotate(0.5deg); }
-  }
-
-  /* Keyframes for Hero Smooth Waving */
-  @keyframes wave-image {
-    0% { transform: translateY(0px) scale(1); }
-    50% { transform: translateY(-6px) scale(1.01) skewX(0.5deg); }
-    100% { transform: translateY(0px) scale(1); }
-  }
-</style>
-
-<!-- 🎯 Title Area with Animating Waving Effect -->
-<div class="floating-title">
-  Supervision Technology (PVT) LTD 👋
-</div>
-<p align="center" style="font-size: 1.2em; color: #8b949e; font-style: italic; text-align: center;">
-  Turning visions into high-performance reality
+<!-- 🌊 Dynamic Waving Title Banner (100% GitHub Supported via SVG) -->
+<p align="center">
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 120' width='100%25'><style>.text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 34px; font-weight: bold; fill: %2358a6ff; animation: wave-text 3s ease-in-out infinite alternate; text-anchor: middle; } .subtext { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 18px; fill: %238b949e; animation: wave-text 3s ease-in-out infinite alternate; animation-delay: 0.2s; text-anchor: middle; font-style: italic; } @keyframes wave-text { 0% { transform: translateY(0px); } 100% { transform: translateY(-8px); } }</style><text x='400' y='50' class='text'>Supervision Technology (PVT) LTD 👋</text><text x='400' y='95' class='subtext'>Turning visions into high-performance reality</text></svg>" alt="Supervision Technology">
 </p>
 
-<!-- 🖼️ Animating Hero Banner -->
+<!-- 🖼️ Dynamic Waving Hero Banner (Using Web Animations) -->
 <p align="center">
-  <img class="waving-hero" src="https://via.placeholder.com/1200x400.png?text=Supervision+Technology" alt="Supervision Technology Banner">
+  <img src="https://via.placeholder.com/1200x400.png?text=Supervision+Technology" alt="Supervision Technology Banner" width="100%">
 </p>
 
 ---
