@@ -3,12 +3,6 @@
   <img src="title.svg" alt="Supervision Technology Title" width="100%">
 </p>
 
-<!-- 🖼️ Company Banner -->
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop" alt="Supervision Technology Banner" width="100%" style="border-radius: 10px;">
-</p>
-
----
 
 ### 🌟 About Us
 Engineering scalable multi-tenant ERP platforms and secure high-performance business automation software for 100+ thriving enterprise clients. We specialize in transforming corporate workflows through custom software engineering, automated payroll solutions, and robust data-driven infrastructures.
